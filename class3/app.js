@@ -3,6 +3,7 @@ var a = 2;
 var b = 10;
 // a++ = a= a+1
 // document.write(++b);
+// editing
 
 
 //document.write(a++ + ++a + a); // 2 + 4 + 4
