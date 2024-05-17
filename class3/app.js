@@ -41,4 +41,4 @@ var a = 2;
 
 
 //document.write("Umra " + a)
-document.write("4" - 2)
+// document.write("4" - 2)
