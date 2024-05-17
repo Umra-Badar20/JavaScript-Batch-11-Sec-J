@@ -43,13 +43,14 @@
 // var correctAns = "karachi";
 // var score= 0;
 
-document.write(typeof (2 * "2"))
 
 
 // if (city === correctAns){
-//     alert("Correct")
-//    score++
-// }
-// else{
-// alert("Incorrect")
-// }
+    //     alert("Correct")
+    //    score++
+    // }
+    // else{
+        // alert("Incorrect")
+        // }
+        
+ // document.write(typeof (2 * "2"))
