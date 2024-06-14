@@ -30,9 +30,24 @@
 // // var myName = "Umra"
 // document.write(students.lastIndexOf("Sana"))
 
-var str = "Is this World War II Is?";
+var str = "Is this World War II happening Is World War II?";
 // document.write(str.indexOf("Is"));
 // document.write(str.lastIndexOf("Is"));
 // document.write(str.charAt(10));
+
+// for(var i=0; i<str.length; i++){
+//     if(str.charAt(i)=="?"){
+//         alert("Question mark found")
+//     }
+// }
+// document.write(str.replace("World War II", "Second World War"))
+document.write(str.replace(/World War II/g, "Second World War"))
+
+
+
+
+
+
+
 
 
