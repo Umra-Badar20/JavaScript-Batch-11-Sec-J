@@ -29,7 +29,6 @@ var today = new Date()
 // document.write(moment().format("h:mm A [<br>] M/D/YYYY"))
 // console.log(moment());
 
-var mToday= moment([6, 25,2024])
-var mNewYear = moment([1, 1, 2025])
-var diff = mToday.diff(mNewYear, 'days')
-document.write(diff)
+var a = moment(new Date("1 january 2025"));
+var b = moment(new Date);
+document.write(a.diff(b, 'hours'))
