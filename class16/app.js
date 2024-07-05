@@ -63,10 +63,22 @@
 
 
 // Arguments as variables
-var width = 20;
-var height = 10;
+// var width = 20;
+// var height = 10;
 
-function calculateArea(w, h){
-    return w * h
+// function calculateArea(w, h){
+//     return w * h
+// }
+// alert(calculateArea(width, height))
+if(true){
+    num= 3
 }
-alert(calculateArea(width, height))
+
+
+function sum(){
+    var num = 2
+    console.log(num)
+}
+
+sum()
+console.log(num)
