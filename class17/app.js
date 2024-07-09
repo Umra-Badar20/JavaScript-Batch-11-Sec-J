@@ -28,17 +28,33 @@
 // console.log(titleCase)
 
 //____________________Title Case Function______________________
-function titleCase(str){
-    var str=prompt("enter any sentence:");
-    var words=str.split(" ");
-    var titleCase=" ";
-    for(i=0;i<words.length;i++){
-        titleCase +=words[i].charAt(0).toUpperCase()+words[i].slice(1).toLowerCase()+ " ";
-    }
-    return titleCase;
-}
-console.log(titleCase());
+// function titleCase(str){
+//     var str=prompt("enter any sentence:");
+//     var words=str.split(" ");
+//     var titleCase=" ";
+//     for(i=0;i<words.length;i++){
+//         titleCase +=words[i].charAt(0).toUpperCase()+words[i].slice(1).toLowerCase()+ " ";
+//     }
+//     return titleCase;
+// }
+// console.log(titleCase());
 
+
+function findLongestString(){
+    var str = prompt("Enter a string:")
+    var words =str.split(" ")
+    var longestWord= ""
+    var maximumLength = 0;
+
+    for(var i=0 ; i<words.length ; i++){
+        if(words[i].length > maximumLength){
+            longestWord =words[i] 
+            maximumLength= words[i].length
+        }
+    }
+    return longestWord+ " is the longest word"
+}
+console.log(findLongestString())
 
 
 
