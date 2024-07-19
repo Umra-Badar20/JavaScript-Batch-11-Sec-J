@@ -55,15 +55,21 @@
 
 
 
-var age = prompt("Enter age b/w 15 to 30");
-switch(true){
-    case(age>=15 && age <=20):
-    alert("you are eligible")
-    break;
-    case(age>=21 && age <=30):
-    alert("You are not eligible")
-    break;
+// var age = prompt("Enter age b/w 15 to 30");
+// switch(true){
+//     case(age>=15 && age <=20):
+//     alert("you are eligible")
+//     break;
+//     case(age>=21 && age <=30):
+//     alert("You are not eligible")
+//     break;
 
-    default:
-        alert("Enter age b/w 15 to 30")
-}
+//     default:
+//         alert("Enter age b/w 15 to 30")
+// }
+
+
+// function sum(a=2,b=2){
+//     return a+b
+// }
+// alert(sum(5))
