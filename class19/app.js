@@ -58,27 +58,27 @@
 
 
 
-// function countVowelPairs(text){
-//     var count = 0;
-//     var i = 0;
-//     while(i<text.length-1){
-//         var char1 = text[i].toLowerCase()
-//         var char2 = text[i+1].toLowerCase()
-//         var vowelPairs = []
+/*function countVowelPairs(text){
+    var count = 0;
+    var i = 0;
+    while(i<text.length-1){
+        var char1 = text[i].toLowerCase()
+        var char2 = text[i+1].toLowerCase()
+        var vowelPairs = []
 
-//         switch(true){
-//             case (char1==="a" && (char2 ==="a"|| char2==="e"|| char2 ==="i"|| char2 ==="o" || char2=== "u")):
-//             case (char1==="e" && (char2 ==="a"|| char2==="e"|| char2 ==="i"|| char2 ==="o" || char2=== "u")):
-//             case (char1==="i" && (char2 ==="a"|| char2==="e"|| char2 ==="i"|| char2 ==="o" || char2=== "u")):  
-//             case (char1==="o" && (char2 ==="a"|| char2==="e"|| char2 ==="i"|| char2 ==="o" || char2=== "u")):  
-//             case (char1==="u" && (char2 ==="a"|| char2==="e"|| char2 ==="i"|| char2 ==="o" || char2=== "u")):
-//                 count++
-//                 vowelPairs.push(char1+char2)
-//                 console.log(vowelPairs)
-//                 break
-//         }
-//         i++
-//     }
-//     return count;
-// }
-// alert(countVowelPairs("Please read this application and give me gratuity"))
+        switch(true){
+            case (char1==="a" && (char2 ==="a"|| char2==="e"|| char2 ==="i"|| char2 ==="o" || char2=== "u")):
+            case (char1==="e" && (char2 ==="a"|| char2==="e"|| char2 ==="i"|| char2 ==="o" || char2=== "u")):
+            case (char1==="i" && (char2 ==="a"|| char2==="e"|| char2 ==="i"|| char2 ==="o" || char2=== "u")):  
+            case (char1==="o" && (char2 ==="a"|| char2==="e"|| char2 ==="i"|| char2 ==="o" || char2=== "u")):  
+            case (char1==="u" && (char2 ==="a"|| char2==="e"|| char2 ==="i"|| char2 ==="o" || char2=== "u")):
+                count++
+                vowelPairs.push(char1+char2)
+                console.log(vowelPairs)
+                break
+        }
+        i++
+    }
+    return count;
+}
+alert(countVowelPairs("Please read this application and give me gratuity"))*/
