@@ -1,0 +1,11 @@
+.hidden{
+    display: none;
+}
+.dummy{
+    height: 200px;
+    width: 200px;
+}
+.zoom{
+    transform: scale(1.5);
+    transition: 1s;
+}
