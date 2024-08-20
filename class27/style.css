@@ -1,0 +1,26 @@
+@font-face {
+    font-family:"RobotoSlab" ;
+    src: url(./fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+*{
+    font-family: RobotoSlab;
+}
+.navbar{
+    background-color: #11414d !important;
+}
+.navbar-brand{
+    color: #ffff;
+}
+.navbar-brand:hover{
+    color: #ffff;
+}
+.btn{
+    background-color: #11414d;
+    color: #ffff;
+}
+.btn:hover{
+    background-color: #ffff;
+    color: #11414d;
+    border: 2px solid #11414d;
+
+}
