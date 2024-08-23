@@ -28,6 +28,18 @@
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Description:</label>
                         <textarea id="description" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                        <div class="mt-3">
+                            <div class="images d-flex">
+                                <img onclick="selectImg('./Images/1.jfif')" src="./Images/1.jfif" class="bg-img" alt="">
+                                <img onclick="selectImg('./Images/2.jfif')" src="./Images/2.jfif" class="bg-img" alt="">
+                                <img onclick="selectImg('./Images/3.jfif')" src="./Images/3.jfif" class="bg-img" alt="">
+                                <img onclick="selectImg('./Images/4.jfif')" src="./Images/4.jfif" class="bg-img" alt="">
+                                <img onclick="selectImg('./Images/5.jfif')" src="./Images/5.jfif" class="bg-img" alt="">
+
+                            </div>
+                        </div>
+
                         <div class="mt-3">
                             <button onclick="post()" class="btn">Post</button>
                         </div>
@@ -43,7 +55,7 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
