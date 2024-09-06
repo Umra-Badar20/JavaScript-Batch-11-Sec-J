@@ -44,16 +44,18 @@ function renderQues(){
     }
 
     container.innerHTML = `
-     <p class="question">
-     ${questions[index].question}</p>
-        <div> <label for=""><input type="radio" name="option" value="${questions[index].opt1}"> 
+     <p class="question">${index+1})
+     ${questions[index].question}</p><hr/>
+        <div> <label for="opt1"><input type="radio" name="option" id="opt1" value="${questions[index].opt1}"> 
         ${questions[index].opt1}</label></div>
-        <div> <label for=""><input type="radio" name="option" value="${questions[index].opt2}">
+        <div> <label for="opt2"><input type="radio" name="option" id="opt2" value="${questions[index].opt2}">
         ${questions[index].opt2}</label></div>
-        <div> <label for=""><input type="radio" name="option" value="${questions[index].opt3}">
+        <div> <label for="opt3"><input type="radio" name="option" id="opt3" value="${questions[index].opt3}">
         ${questions[index].opt3}</label></div>
-        <div> <label for=""><input type="radio" name="option" value="${questions[index].opt4}">
+        <div> <label for="opt4"><input type="radio" name="option" id="opt4" value="${questions[index].opt4}">
         ${questions[index].opt4}</label></div>
+                <button class="mt-2 btn btn-success" onclick="renderQues()">Next</button>
+
     `
     index++
 }
