@@ -12,28 +12,29 @@
         <form onsubmit="registration()" class="row g-3 p-3 ">
             <div class="col-md-12">
                 <label for="name" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="name">
+                <input type="text" class="form-control" id="name" required>
               </div>
               <div class="col-md-6">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email">
+                <input type="email" class="form-control" id="email" required>
               </div>
             <div class="col-md-6">
               <label for="phoneNumber" class="form-label">Phone Number</label>
-              <input type="number" class="form-control" id="phoneNumber">
+              <input type="number" class="form-control" id="phoneNumber" required>
             </div>
             <div class="col-md-6">
               <label for="password" class="form-label">Password</label>
-              <input type="password" class="form-control" id="password">
+              <input type="password" class="form-control" id="password" required>
             </div>
             <div class="col-md-6">
                 <label for="cpassword" class="form-label">Confirm Password</label>
-                <input type="password" class="form-control" id="cpassword">
+                <input type="password" class="form-control" id="cpassword" required>
               </div>
             
             <div class="col-12">
               <button type="submit" class="btn btn-primary">Sign in</button>
             </div>
+            <p>Already have an account <a href="./login.html">Log In</a></p>
           </form>
     </div>
     <script src="app.js"></script>
