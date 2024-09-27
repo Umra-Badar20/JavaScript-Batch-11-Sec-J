@@ -1,0 +1,15 @@
+.text-editor-header{
+    background-color: rgb(188, 208, 224);
+}
+.content{
+    height: 400px;
+    outline: none;
+    overflow: auto;
+}
+.card{
+box-shadow: 0px 0px 17px -1px #000000;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
