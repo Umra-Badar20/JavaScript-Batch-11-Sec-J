@@ -73,9 +73,9 @@
 
 
 // let arr= [1,2,3,4,5,6,7]
-function hamayPataNhHe(a,b,...rest) {
-    console.log(a,b,rest);
+// function hamayPataNhHe(a,b,...rest) {
+//     console.log(a,b,rest);
     
-}
+// }
 // hamayPataNhHe(...arr)
-hamayPataNhHe(1,2,3,4,5,6,7,8,11,2,33)
+// hamayPataNhHe(1,2,3,4,5,6,7,8,11,2,33)
