@@ -16,11 +16,11 @@
 // console.log(arr2); //[1,2,3,4]
 
 //Callback Functions
-function myFunc2(){
-    console.log("I am func 2");
-}
-function myFunc(Callback){
-  console.log(Callback);
-  Callback()  
-}
-myFunc(myFunc2)
+// function myFunc2(){
+//     console.log("I am func 2");
+// }
+// function myFunc(Callback){
+//   console.log(Callback);
+//   Callback()  
+// }
+// myFunc(myFunc2)
