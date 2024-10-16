@@ -143,3 +143,50 @@
 // }
 // const squareArr = arr.map(mapArr)
 // console.log(squareArr);
+
+// ___________Find
+var users = [
+    {id: 1, name: "Umra"},
+    {id: 2, name: "Wajeeha"},
+    {id: 3, name: "Sana"}
+]
+const findUser= users.find(user =>{
+   return user.id===2 //returns the value of the first element that passes a test
+})
+console.log(findUser);
+//_________Every
+const products = [
+    {productId:1, productName: "Laptop", price: 45000},
+    {productId:2, productName: "Mobile", price: 25000},
+    {productId:3, productName: "Watch", price: 15000},
+]
+const productsPrice = products.every(product => product.price <= 50000) //returns true if the function returns true for all elements
+// const productsPrice = products.every(product => product.price <= 30000) //returns false if the function returns false for one element
+console.log(productsPrice);
+
+
+
+
+
+
+
+//__________________Filter
+var arr = [1, 2, 3, 4, 5];
+const evenArr = arr.filter(num => num % 2 === 0);
+console.log(evenArr);// creates a new array filled with elements that pass a test provided by a function
+//__________________Reduce
+const sum = arr.reduce((accumulator, currentValue)=>{
+   return accumulator+currentValue //returns a single value: the function's accumulated result
+},100/*initial value*/)
+console.log(sum);
+//accumulator    CurrentValue    return
+    // 100           1             101
+    // 101           2             103
+    // 103           3             106
+    // 106           4             110
+    // 110           5             115
+
+const myarr = [1,2,3]
+//includes(value, indexFrom)
+console.log(myarr.includes(1,2));//returns true if an array contains a specified value, starting from a specified index
+
